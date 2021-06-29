@@ -9,10 +9,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var callButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.navigationController?.navigationBar.isHidden = true
+        callButton.layer.cornerRadius = 15
     }
 
     @IBAction func navigeteBack(_ sender: Any) {

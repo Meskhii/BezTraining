@@ -119,9 +119,8 @@ class WaveView: UIView {
         
         let dotImage = UIImageView()
         dotImage.image = UIImage(named: "ic_ellipse")
-        dotImage.frame = CGRect(x: self.bounds.maxX / 8, y: -4, width: 50, height: 50)
+        dotImage.frame = CGRect(x: self.bounds.maxX / 9.8, y: 2, width: 50, height: 50)
         self.addSubview(dotImage)
-        
         
         let redImage = UIImageView()
         redImage.image = UIImage(named: "ic_red_line")
